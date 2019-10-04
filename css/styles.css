@@ -1,4 +1,5 @@
 .container { 
+    /* margin: 0 auto centers anything as right and left are auto computed  */
     margin : 0 auto;
     border: 2px solid magenta
 }
@@ -12,11 +13,15 @@ header{
 .section-one{ 
     padding : 45px 0;
     width : 90%;
+    /* max-width upto whick it can grow */
     max-width: 620px;
     text-align: center;
     margin : 0 auto;
 }
 
+/* image is inline by default 
+so the default width is the actual width of the image 
+set it to 100% to make it responsive  */
 img { 
     width : 100%
 }
