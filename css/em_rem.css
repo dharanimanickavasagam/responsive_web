@@ -1,0 +1,67 @@
+html { 
+    font-size:  62.5%
+}
+
+body { 
+    font-size: 1.6rem;
+}
+
+.links_rem { 
+    margin-top : 3rem;
+}
+
+.card { 
+    background-color: black;
+    color : white;
+    padding : 20px;
+    width: 70%;
+    margin : 20px auto;
+}
+
+/* here margin-bottom is always half the font-size
+ems scale relative to the parent 
+so these values need not be redefined 
+padding and marin in em */
+
+h1 { 
+    font-size: 3rem;
+    margin-bottom: .5em
+}
+
+span { 
+    color : yellow
+}
+
+.button:hover { 
+    background-color : orange
+}
+
+
+.button { 
+    padding : 0.5em 1.25em;
+    background-color: yellow;
+    margin-right : 10px;
+    text-decoration: none;
+    color : black
+}
+
+.button_rem { 
+    padding : 0.5rem 1.25rem;
+    background-color: yellow;
+    margin-right : 10px;
+    text-decoration: none;
+    color : black
+}
+
+.btn-big { 
+    font-size: 1.5rem
+}
+
+.btn-small { 
+    font-size: 0.75rem
+}
+
+/* rule od thumb
+1. Font-size in rem
+2. Margin and padding in em
+3. Width : Percentage */

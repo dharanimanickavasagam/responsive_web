@@ -1,0 +1,77 @@
+html { 
+    font-size: 62.5%;
+}
+body { 
+    font-size : 1.6rem;
+}
+
+.container { 
+    /* margin: 0 auto centers anything as right and left are auto computed  */
+    margin : 0 auto;
+    border: 2px solid magenta
+}
+
+header{ 
+    background: #2e354f;
+    padding : 45px 0;
+    color : #fff
+}
+
+.section{ 
+    display : flex;
+    flex-direction: row;
+}
+
+.section1{ 
+    padding : 45px 0;
+    width : 90%;
+    /* max-width upto whick it can grow */
+    max-width: 620px;
+    margin : 0 auto;
+}
+
+.section1_1{ 
+    padding : 45px 0;
+    width : 90%;
+    max-width: 620px;
+    margin : 0 auto;
+}
+
+
+/* em - Relative to the parent's font size 
+Pros - Change in parent esily changes the children fs - no need to indovidually update all children 
+Cons - cascading effect, subseq children with fs em, multiply the fs and then may look different from every other el 
+This h2 is 48px, the other h2 in section1 is 30px - contradicting */
+
+/* rem - relative to the root of the document, i.e html
+fix it to 62.5% ti generate a default 10px as it makes calculation easier  */
+
+ul { 
+    font-size: 2rem
+}
+
+li { 
+    font-size: 1.5rem
+}
+
+h2 { 
+    font-size: 2rem
+}
+  
+
+/* image is inline by default 
+so the default width is the actual width of the image 
+set it to 100% to make it responsive  */
+
+img { 
+    width : 100%
+}
+
+.section2 { 
+    background: #2e354f;
+    color : #fff;
+    padding : 45px 0;
+    
+}
+
+
