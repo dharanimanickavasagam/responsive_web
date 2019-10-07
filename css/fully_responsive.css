@@ -1,0 +1,58 @@
+.container { 
+    width : 50%; 
+    margin : 0 auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border : 2px solid magenta; 
+}
+
+.header { 
+    display : flex; 
+    flex-direction: column;
+    padding : 1em;
+    display : inline-block;
+    text-align: center;
+    justify-self: flex-end
+}
+
+.menu { 
+    padding : 1em;
+}
+
+h3 { 
+    color : #143774;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h5 {
+    color : #1792D2;
+    margin: 0 ;
+    font-size:0.84em;
+    font-weight: 700;
+}
+
+nav ul { 
+   
+    list-style-type: none;
+    display : flex;
+    padding:0 ;
+    justify-content: space-evenly
+}
+
+nav li { 
+    padding : 0.5rem;
+}
+
+nav a { 
+    text-decoration: none;
+    color : black;
+}
+
+nav a:hover { 
+    display:inline-block;
+    border-bottom: 0.1em solid black;
+    padding-bottom:2px;
+}
