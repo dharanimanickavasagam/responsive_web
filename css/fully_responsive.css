@@ -1,10 +1,17 @@
+body { 
+    margin : 0 0 ;
+
+}
+
+
 .container { 
-    width : 50%; 
-    margin : 0 auto; 
+    width : 100%; 
+    margin : 0 0; 
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    border : 2px solid magenta; 
+    justify-content: space-around;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    padding: 0 0;
 }
 
 .header { 
@@ -55,4 +62,101 @@ nav a:hover {
     display:inline-block;
     border-bottom: 0.1em solid black;
     padding-bottom:2px;
+}
+
+.bodyContent { 
+    /* border : 2px solid magenta; */
+    padding: 2em;
+    width : 50%;
+    margin : 0 auto;
+    
+}
+
+.sections { 
+    display : flex !important; 
+    justify-content: space-between
+    
+}
+
+.section1 { 
+    width :70%
+}
+
+.section2{
+    width : 25%;
+    text-align: center
+}
+
+.sidepane { 
+    padding : 0;
+    border: 20px solid #EBEBEB;
+    margin-bottom: 1em;
+}
+
+.sidepaneImage { 
+    max-width : 60%;
+    height : 150px;
+}
+
+
+.fullWidth { 
+    max-width : 50%;
+    height : 308px;
+}
+
+.date { 
+ padding : 1em 0;
+ color :#707070
+
+}
+
+.heading { 
+    color : #143774;
+    font-size: 1.5rem;
+    margin-bottom :1em;
+}
+
+.sidepaneHeading { 
+   margin-top :1em ;
+}
+
+.content { 
+    padding : 0 1rem;
+}
+
+.link { 
+    padding : 1rem 0;
+    color : #1792D2;
+}
+
+.link a{ 
+    text-decoration: none
+}
+
+
+.item { 
+    display : flex
+}
+
+hr { 
+    margin-bottom: 1em;
+}
+
+.mainImg{ 
+    width:100%
+}
+
+.footer { 
+    background-color:#143774;
+    color: white;
+    padding : 1em 1em;
+    text-align: center;
+    margin-top :1em ;
+
+}
+
+.sidepaneContent{
+    padding :1em  !important;
+    text-align: center;
+    color:#143774
 }
