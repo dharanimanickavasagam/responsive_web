@@ -1,6 +1,42 @@
 body { 
     margin : 0 0 ;
+    font-family: 'Lora',serif;
+}
 
+@media (max-width:675px)  { 
+    .container { 
+        display : flex; 
+        flex-direction: column 
+    }
+
+    nav ul { 
+        display : flex; 
+        flex-direction: column !important 
+    }
+
+    .menu { 
+        padding : 0 0 !important;
+    }
+
+    .item { 
+        display : flex;
+        flex-direction: column
+    }
+    .fullWidth { 
+        max-width : 100% !important;
+    }
+    .content{ 
+        padding : 0 0 !important;
+    }
+
+    .sections { 
+        display : flex !important; 
+        flex-direction: column;
+    }
+    .section2, .section1 { 
+        width  :100% !important
+    }
+    
 }
 
 
@@ -18,7 +54,6 @@ body {
     display : flex; 
     flex-direction: column;
     padding : 1em;
-    display : inline-block;
     text-align: center;
     justify-self: flex-end
 }
@@ -60,14 +95,15 @@ nav a {
 
 nav a:hover { 
     display:inline-block;
-    border-bottom: 0.1em solid black;
-    padding-bottom:2px;
+    /* border-bottom: 0.1em solid black; */
+    /* padding-bottom:2px; */
+    color : #1792D2;
 }
 
 .bodyContent { 
     /* border : 2px solid magenta; */
     padding: 2em;
-    width : 50%;
+    width : 60%;
     margin : 0 auto;
     
 }
@@ -95,13 +131,13 @@ nav a:hover {
 
 .sidepaneImage { 
     max-width : 60%;
-    height : 150px;
+    /* display :block; */
 }
 
 
 .fullWidth { 
     max-width : 50%;
-    height : 308px;
+    /* display :block; */
 }
 
 .date { 
@@ -143,7 +179,8 @@ hr {
 }
 
 .mainImg{ 
-    width:100%
+    width:100%;
+    display :block;
 }
 
 .footer { 
